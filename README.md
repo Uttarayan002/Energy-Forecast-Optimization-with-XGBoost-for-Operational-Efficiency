@@ -1,2 +1,2 @@
-# Neural Network for Predicting Energy Output of Combined Cycle Power Plants
+# Artificial Neural Network for Predicting Energy Output of Combined Cycle Power Plants
 ### On going........
