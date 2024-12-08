@@ -64,4 +64,5 @@ Applied cross-validation to ensure generalizability.
 
 ## Visualizations
  - ### Environmental Factors vs. Power Output (PE)
-![Sample Image]("E:\plots\PAIR_plot.png")
+**Pair plot with PE :**
+![PAIR_plot](https://github.com/user-attachments/assets/f01027e1-0979-486c-b7e0-174fbfb85b06)
