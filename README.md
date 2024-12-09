@@ -1,4 +1,4 @@
-# Electrical Energy Forecasting on CCPP dataset Using Ensemble learning (XGBoost).
+# Electrical Energy Forecasting on CCPP dataset Using XGBoost 🌳
 This project leverages the XGBoost regression algorithm to predict the net energy output (Power Output - PE) of a Combined Cycle Power Plant (CCPP) based on environmental factors. The goal is to optimize energy production by accurately modeling and understanding the relationship between operational conditions and power output.
 
 ## Introduction
