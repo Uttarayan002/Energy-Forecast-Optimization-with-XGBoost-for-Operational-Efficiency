@@ -50,21 +50,7 @@ Ambient Temperature( AT) in °C **|** Exhaust Vacuum (V) in cm Hg **|**  Ambient
 The dataset was sourced from the UCI Machine Learning Repository -> [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/294/combined+cycle+power+plant).
 
 ## Project Pipeline
-1. **Data Exploration and Visualization**
-Analyzed relationships between environmental factors and power output.
-Identified trends and correlations with scatter plots and heatmaps.
-
-2. **Data Preprocessing**
-Checked for missing values and anomalies.
-Ensured proper separation of features and target variables.
-
-3. **Model Development**
-Implemented XGBoost Regressor.
-Conducted hyperparameter tuning using GridSearchCV for optimal model performance.
-
-4. **Model Evaluation**
-Evaluated the model using Mean Absolute Error (MAE) on test data.
-Applied cross-validation to ensure generalizability.
+**RAW DATA** --> **DATA CLEANING** --> **EDA** --> **FEATURE ENGINEERING** --> **MODEL SELECTION** --> **MODEL TRAINING** --> **MODEL EVALUATION** --> **INSIGHTS and REPORTS**
 
 ## Technologies Used
 **Python**: Core programming language. 
@@ -225,4 +211,5 @@ ________________________________________________________________________________
  - Deployment: Create an API for real-time energy output predictions.
  - Extended Analysis: Incorporate external datasets to analyze seasonal trends.
 ## Contacts
-[E-mail](uttarayanhaldar433@gmail.com) **|**  [Github](https://github.com/Uttarayan002) **|** [Twitter](https://x.com/Uttarayan)
+Auther: Uttarayan Haldar
+📩[E-mail](uttarayanhaldar433@gmail.com) **|**  🐱[Github](https://github.com/Uttarayan002) **|** 🕊️[Twitter](https://x.com/Uttarayan)
