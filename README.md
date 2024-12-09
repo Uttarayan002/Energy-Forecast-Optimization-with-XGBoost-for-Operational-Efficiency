@@ -212,4 +212,4 @@ ________________________________________________________________________________
  - Extended Analysis: Incorporate external datasets to analyze seasonal trends.
 ## Contacts
 Auther: Uttarayan Haldar
-📩[E-mail](uttarayanhaldar433@gmail.com) **|**  🐱[Github](https://github.com/Uttarayan002) **|** 🕊️[Twitter](https://x.com/Uttarayan)
+📩[E-mail](uttarayanhaldar433@gmail.com) **|**  🐱[Github](https://github.com/Uttarayan002) **|** 🕊️[Twitter](https://x.com/UHaldar22)
