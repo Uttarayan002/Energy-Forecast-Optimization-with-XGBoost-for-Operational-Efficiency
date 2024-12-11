@@ -153,6 +153,18 @@ This structured approach demonstrates your ability to solve real-world problems 
 > - Mean Test MAE: 2.0932
 > - Cross-Validated MAE: 2.2379
 
+**Hyperparameters**                                                                                                                                                                                            
+ Based on the results, the best parameters found from the GridSearchCV are:
+
+> - colsample_bytree: 1.0
+> - learning_rate: 0.1
+> - max_depth: 7
+> - min_child_weight: 1
+> - n_estimators: 300
+> - subsample: 0.8
+
+These values will likely improve the performance of the model.
+
 ## ★ Insights Gained from the Combined Cycle Power Plant (CCPP) Dataset
 
 - **High Predictive Accuracy:** The final Mean Absolute Error (MAE) of approximately 2.093 on the test set and cross-validated mean MAE of ~2.2379 indicates that the model performs exceptionally well in predicting the Net Energy Output (PE) given the input features.This low error margin demonstrates the suitability of the XGBoost algorithm for regression tasks in this domain.
@@ -211,5 +223,5 @@ ________________________________________________________________________________
  - Deployment: Create an API for real-time energy output predictions.
  - Extended Analysis: Incorporate external datasets to analyze seasonal trends.
 ## Contacts
-Auther: Uttarayan Haldar
-📩[E-mail](uttarayanhaldar433@gmail.com) **|**  🐱[Github](https://github.com/Uttarayan002) **|** 🕊️[Twitter](https://x.com/UHaldar22)
+Auther: Uttarayan Haldar                                                                                                                                                                                          
+📩[E-mail](uttarayanhaldar433@gmail.com) **|**  🐱[Github](https://github.com/Uttarayan002) **|** 🕊️[Twitter](https://x.com/UHaldar22)                                                                
