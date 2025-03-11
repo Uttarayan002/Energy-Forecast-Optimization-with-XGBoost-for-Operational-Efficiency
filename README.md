@@ -228,35 +228,4 @@ Auther: Uttarayan Haldar
 
 
 
-project-name/
-│
-├── data/                   # Folder for datasets
-│   ├── raw/                # Original, immutable data
-│   ├── processed/          # Cleaned and processed data
-│   └── external/           # External data sources
-│
-├── notebooks/              # Jupyter notebooks for exploration and analysis
-│   ├── 01-exploration.ipynb
-│   └── 02-modeling.ipynb
-│
-├── src/                    # Source code for the project
-│   ├── data_preprocessing.py
-│   ├── model_training.py
-│   └── utils.py
-│
-├── models/                 # Trained models and serialized outputs
-│   ├── model.pkl
-│   └── model_metrics.txt
-│
-├── reports/                # Generated analysis reports, visualizations, etc.
-│   ├── figures/            # Graphs and plots
-│   └── final_report.pdf
-│
-├── tests/                  # Unit tests and test data
-│   ├── test_data.py
-│   └── test_models.py
-│
-├── .gitignore              # Specifies files to ignore in Git
-├── README.md               # Project overview and instructions
-├── requirements.txt        # Python dependencies
-└── LICENSE                 # License for the project
+
