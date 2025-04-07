@@ -61,35 +61,8 @@ The dataset was sourced from the UCI Machine Learning Repository -> [UCI Machine
  - Matplotlib & Seaborn: Data visualization.
  - scikit-learn: Preprocessing, scaling, and evaluation.
 
-## Visualizations
- >  ### **Detailed relationship between Features and target variable**
-###  - **Pair plot with PE :**
-![PAIR_plot](https://github.com/user-attachments/assets/f01027e1-0979-486c-b7e0-174fbfb85b06)
 
-### -  **Coorelation Matrix with Heatmap:**
-![CORR_plot](https://github.com/user-attachments/assets/269891a0-2b8a-41fc-b163-254640cd7bbd)
-
-### - **Data Distribution Plots:**
-![DATADIS_plot](https://github.com/user-attachments/assets/e5fa2dd9-4662-4e07-a8a2-d5e6e7ef5eee)
-________________________________________________________________________________________________________________________________________________________________________________________________
->  ### Environmental Factors vs. Power Output (PE)
-### - AT vs PE
-![ATvPE_plot](https://github.com/user-attachments/assets/52c6cc96-89e9-48d8-94e3-ccc3d9bec662)
-
-### - V vs PE
-![VvPE](https://github.com/user-attachments/assets/d45f64e5-0f11-47fb-a359-7bf8bb463897)
-
-### - AP vs PE
-![APvPE_plot](https://github.com/user-attachments/assets/44803662-3ed8-4325-bfd3-fe9984e8be03)
-
-### - RH vs PE 
-![RHvPE_plot](https://github.com/user-attachments/assets/3b22acac-5cca-4213-8f3f-7d90f8dc18a8)
-_________________________________________________________________________________________________________________________________________________________________________________________________
-> ### Outliers/Anomaly Detection with Viz
-### - Blox plot for each columns:
-![BLOXPLOT_plot](https://github.com/user-attachments/assets/f89f7c57-ef21-4cb3-aa5c-fd7fd8e53296)
-
- ## 5. Model Working  
+ ## Model Working  
 ### What is Ensemble Learning?
 Ensemble learning is a machine learning technique that combines multiple models (often called "weak learners") to produce a stronger, more accurate model. 
 
