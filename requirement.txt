@@ -1,0 +1,17 @@
+DEPENDENCIES for this project
+
+OS: Windows
+
+Hardware requirements: 12GB RAM, 520 SSD, Graphics card.
+
+Good Internet connect
+
+Python latest version (3.12.0)
+
+Anaconda latest version and jupyter notebook
+
+ libraries must have:- 
+- XGBoost: Model development.
+ - Pandas & NumPy: Data manipulation.
+ - Matplotlib & Seaborn: Data visualization.
+ - scikit-learn: Preprocessing, scaling, and evaluation.
