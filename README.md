@@ -184,7 +184,10 @@ ________________________________________________________________________________
 - Improved power output forecast accuracy by 15% by developing a machine learning model using XGBoost on historical environmental data.
 - Increased model effectiveness by analyzing and optimizing environmental features, leveraging feature importance metrics for selection and refinement.
 - Assessed model performance through evaluation metrics (MAE ≈ 2.09, RMSE, R²) and residual plot analysis, ensuring robustness and minimal prediction bias.
-  
+
+## Note
+I completed this project in May 2023, but didn’t upload it to GitHub until later. Posting now to document and share the work.
+
 ## Contacts
 Auther: Uttarayan Haldar                                                                                                                                                                                          
 📩[E-mail](uttarayanhaldar433@gmail.com) **|**  🐱[Github](https://github.com/Uttarayan002) **|** 🕊️[Twitter](https://x.com/UHaldar22)     
