@@ -186,7 +186,7 @@ ________________________________________________________________________________
 - Assessed model performance through evaluation metrics (MAE ≈ 2.09, RMSE, R²) and residual plot analysis, ensuring robustness and minimal prediction bias.
 
 ## Note
-I completed this project in May 2023, but didn’t upload it to GitHub until later. Posting now to document and share the work.
+I completed this project in April 2025, but didn’t upload it to GitHub until later. Posting now to document and share the work.
 
 ## Contacts
 Auther: Uttarayan Haldar                                                                                                                                                                                          
