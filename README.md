@@ -54,16 +54,12 @@ Decision-making for maintenance or upgrades in plant systems.*
 ## Dependencies
 Check this document before you proceed -> `requirement.txt`
 
-## Dataset
-The dataset used in this project contains:
-Ambient Temperature( AT) in °C **|** Exhaust Vacuum (V) in cm Hg **|**  Ambient Pressure(AP) in mbar **|**  Relative Humidity (RH) in % **|**  Power Output (PE) in MW.
-The dataset was sourced from the UCI Machine Learning Repository -> [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/294/combined+cycle+power+plant).
 
 ## Project Pipeline
-**RAW DATA** --> **DATA CLEANING** --> **EDA** --> **FEATURE ENGINEERING** --> **MODEL SELECTION** --> **MODEL TRAINING** --> **MODEL EVALUATION** --> **INSIGHTS and REPORTS**
+**RAW DATA** --> **DATA CLEANING** --> **EDA** --> **FEATURE ENGINEERING** --> **MODEL SELECTION** --> **MODEL TRAINING** --> **HYPER PARAMETER TUNING** --> **MODEL EVALUATION** --> **Business INSIGHTS and REPORTS**
 
 
- ## Model Working  
+ ## what different about this model ? 
 ### What is Ensemble Learning?
 Ensemble learning is a machine learning technique that combines multiple models (often called "weak learners") to produce a stronger, more accurate model. 
 
