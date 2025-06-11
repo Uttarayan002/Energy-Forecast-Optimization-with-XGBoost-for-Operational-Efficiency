@@ -19,22 +19,27 @@ two heat recovery systems. Predicting electrical power output of a power plant h
 electrical power output of a base load power plant correctly is important for the efficiency and economic operation of a power plant. It is useful in order to maximize the income from the available megawatt hours 
 (MW h). The reliability, and sustainability of a gas turbine depend highly on prediction of its power generation, particularly when it is subject to constraints of high profitability and contractual liabilities.
 
-## Problem Statement
+## What Problem we are solving ?
+Energy production companies need accurate forecasting of power output to ensure efficient resource utilization, meet energy demand reliably, and minimize operational costs.
+
+In this project, we aimed to predict the net hourly electrical energy output (PE) of a Combined Cycle Power Plant using environmental factors such as ambient temperature (AT), exhaust vacuum (V), ambient pressure (AP), and relative humidity (RH).
+
+
 The objective is to predict the net energy output (PE) of a power plant given environmental features:
 
- - Ambient Temperature (AT)
- - Exhaust Vacuum (V)
- - Ambient Pressure (AP)
- - Relative Humidity (RH). Accurate prediction of PE helps in optimizing power plant operations by balancing energy demands, improving efficiency, and reducing costs and environmental impacts.
+ - Ambient Temperature (AT), Exhaust Vacuum (V), Ambient Pressure (AP), Relative Humidity (RH). Accurate prediction of PE helps in optimizing power plant operations by balancing energy demands, improving efficiency, and reducing costs and environmental impacts.
 
-## Key Objectives:
-
+**Key Objectives:**
  - Understand Data Relationships.
  - Modeling the Energy Output:
  - Performance Evaluation:
  - Evaluate the model's accuracy using appropriate regression metrics 
  - Feature Insights
- - Application Goal 
+ - Application Goal
+
+## The 'Approach'
+Accurate prediction of PE allows plant managers and operators to make data-driven decisions, such as adjusting turbine parameters in response to environmental changes, optimizing fuel consumption, and planning maintenance proactively. 
+To address this need, we developed a robust regression model using the XGBoost algorithm which will achieve a low Mean Absolute Error (MAE) on unseen data—demonstrating its effectiveness in capturing the relationship between environmental inputs and power output.
 
 *Providing an efficient model that can be used for real-time energy output predictions, aiding in:
 Operational adjustments to optimize performance.
