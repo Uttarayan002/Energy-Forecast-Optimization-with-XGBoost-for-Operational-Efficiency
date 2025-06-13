@@ -7,6 +7,7 @@ Hardware requirements: 12GB RAM, 520 SSD, Graphics card.
 Good Internet connect
 
 Python latest version (3.12.0)
+Any database systems. (MySQL and PostgrSQL recommended)
 
 Anaconda latest version and jupyter notebook
 
