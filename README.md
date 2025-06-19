@@ -34,36 +34,6 @@ RH	     |   Relative Humidity (%)             |
 PE	     |    Net Energy Output (target) in MW |
 
 ___________________________________________________________________________________________________________________________________________________________________________________________________________________
-# Code Structure
-'''bash
-├── data/                                # All project data
-│   ├── raw/                             # Original, immutable data
-|   └── Cleaned/                         # Cleaned/processed data
-│
-├── notebooks/                           # Jupyter notebooks for exploration
-│   ├── Environmental-insights.ipynb
-│   ├── Exploratory data analysis.ipynb
-│   └── SQL_EDA.ipynb
-│
-├── src/                                 # Source code
-│   ├── Data preprocessing.ipynb         # Data processing scripts           
-│   └── XGBoost Model.ipynb              # MODEL
-│
-│
-├── tests/                  # Unit tests
-│   ├── X_test_data.py
-│   └── y_test.py
-│
-│
-├── reports/                # Outputs (plots, tables, etc.)
-│   
-│
-├── .gitignore              # Specifies intentionally untracked files
-├── README.md               # Project overview
-├── requirements.txt        # Python dependencies
-└── LICENSE                 # Project license
-'''
-___________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 #  Technical Stack
 
@@ -114,3 +84,26 @@ The XGBoost model achieved a **Mean Absolute Error of ~2.09**, significantly out
 - Temperature (AT) has the strongest negative correlation with power output. Higher temperatures reduce energy efficiency.
 - Exhaust Vacuum (V) also shows a strong inverse relation with PE.
 - Pressure (AP) and Humidity (RH) have moderate effects but contribute to overall accuracy when retained.
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
+# Recommendations
+
+- **Monitor Ambient Temperature closely – Optimize operations or shift loads during cooler times to improve efficiency.**
+  
+- **Use the prediction model in real-time dashboards to guide energy production and avoid unnecessary costs or energy loss.**
+  
+- **Consider deploying this model into an internal decision support system or API for plant operators.**
+  
+- **Explore integration with weather forecasting systems to plan daily production loads.**
+  
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
+# Model Performance Summary
+| Metric   	                 |  Score         | 
+|----------------------------|----------------|
+| Train MAE 	               |  0.94          |
+| Test MAE	                 |  2.09          |
+| Cross-Val MAE (Mean ± Std) |	 2.23 ± 0.035 |
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
+## Author
+Name: Uttarayan Haldar
+ | LinkedIn: [Uttarayan Haldar](https://www.linkedin.com/in/uttarayan-haldar/)
+ | Github:[Uttarayan002](https://github.com/Uttarayan002)
