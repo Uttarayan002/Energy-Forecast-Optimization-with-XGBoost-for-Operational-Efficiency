@@ -1,6 +1,6 @@
 # Energy Output Analysis and Optimization using XGBoost (working 0n REDAME)
 A business-relevant, data-driven project to optimize power plant efficiency using environmental indicators and predictive modeling.
-________________________________________________________________________________________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 # Project Overview
 
@@ -9,7 +9,7 @@ ________________________________________________________________________________
 **Why is it important?** Energy production efficiency is crucial for reducing fuel consumption and lowering environmental impact. Predicting the power output allows plant operators to make better decisions, avoid under/overproduction, and reduce operational costs.
 
 **So what?** By developing a robust machine learning model (XGBoost), we demonstrate how data science can directly support energy optimization, sustainability goals, and cost-effective production planning.
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 # Project Goal
 To analyze the environmental and accurately predict the Net Energy Output (PE) of the power plant based on key environmental parameters such as:
@@ -35,9 +35,11 @@ RH	      |   Relative Humidity (%)            |
 PE	      |   Net Energy Output (target) in MW |
 
 ___________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 #  Technical Stack
 
-## 📦 Tools & Technologies
+## Tools & Technologies
+A blend of analytical thinking and tech tools
 
 | Category              | Tools Used                                  |
 |-----------------------|---------------------------------------------|
