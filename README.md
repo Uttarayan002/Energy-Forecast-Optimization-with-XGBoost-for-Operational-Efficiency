@@ -33,22 +33,7 @@ AP	     |   Ambient Pressure (millibar)       |
 RH	     |   Relative Humidity (%)             |
 PE	     |    Net Energy Output (target) in MW |
 
-___________________________________________________________________________________________________________________________________________________________________________________________________________________
-
-#  Technical Stack
-
-## Tools & Technologies
-A blend of analytical thinking and tech tools
-
-| Category              | Tools Used                                  |
-|-----------------------|---------------------------------------------|
-| Programming Language  | Python, SQL                                 |
-| Data Analysis         | Pandas, NumPy                               |
-| Visualization         | Matplotlib, Seaborn, Tableau                |
-| Environment           | Jupyter Notebook, PostgreSQL, Excel         |
-| Version Control       | Git, GitHub                                 |
-
-___________________________________________________________________________________________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________________________________________________________________________________
 
 # Executive Summary
 Analyze and Built a tuned ML model to accurately predict energy output from real-world environmental data.
@@ -84,7 +69,7 @@ The XGBoost model achieved a **Mean Absolute Error of ~2.09**, significantly out
 - Temperature (AT) has the strongest negative correlation with power output. Higher temperatures reduce energy efficiency.
 - Exhaust Vacuum (V) also shows a strong inverse relation with PE.
 - Pressure (AP) and Humidity (RH) have moderate effects but contribute to overall accuracy when retained.
-____________________________________________________________________________________________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________________________________________________________________________________
 # Recommendations
 
 - **Monitor Ambient Temperature closely – Optimize operations or shift loads during cooler times to improve efficiency.**
@@ -95,14 +80,29 @@ ________________________________________________________________________________
   
 - **Explore integration with weather forecasting systems to plan daily production loads.**
   
-____________________________________________________________________________________________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________________________________________________________________________________
+#  Technical Stack
+
+## Tools & Technologies
+A blend of analytical thinking and tech tools
+
+| Category              | Tools Used                                  |
+|-----------------------|---------------------------------------------|
+| Programming Language  | Python, SQL                                 |
+| Data Analysis         | Pandas, NumPy                               |
+| Visualization         | Matplotlib, Seaborn, Tableau                |
+| Environment           | Jupyter Notebook, PostgreSQL, Excel         |
+| Version Control       | Git, GitHub                                 |
+
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________
 # Model Performance Summary
 | Metric   	                 |  Score         | 
 |----------------------------|----------------|
 | Train MAE 	               |  0.94          |
 | Test MAE	                 |  2.09          |
 | Cross-Val MAE (Mean ± Std) |	 2.23 ± 0.035 |
-____________________________________________________________________________________________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________________________________________________________________________________
 ## Author
 Name: Uttarayan Haldar
  | LinkedIn: [Uttarayan Haldar](https://www.linkedin.com/in/uttarayan-haldar/)
