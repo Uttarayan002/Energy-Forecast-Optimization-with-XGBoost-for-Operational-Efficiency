@@ -13,8 +13,7 @@ ________________________________________________________________________________
 ### Business Context: What is the business context of this project?
 Power generation companies operate in a highly cost-sensitive and efficiency-driven environment. The Combined Cycle Power Plant (CCPP) is designed to generate power using both gas and steam turbines, making it more efficient than conventional methods. However, fluctuating environmental conditions such as temperature, ambient pressure, humidity, and exhaust vacuum can significantly impact energy production.
 
-____________________________________________________________________________________________________________________________________________________________________________________________________________________
-
+______________________________________________________________________________________________________________________________________________________________________________________________________________
 # Project Goal
 To analyze the environmental and accurately predict the Net Energy Output (PE) of the power plant based on key environmental parameters such as:
 - Ambient Temperature (AT)
@@ -50,13 +49,9 @@ These are real-time environmental parameters that influence the energy output:
 - AP – Ambient Pressure (millibar)
 - RH – Relative Humidity (%)
 
-## Target Variable (Value/Metric)
-**PE – Net hourly electrical energy output of the plant (in Megawatts)**
+**Target Variable (Value/Metric)** -> PE – Net hourly electrical energy output of the plant (in Megawatts)
 
-## Key Performance Metrics
-- MAE (Mean Absolute Error) – Used to evaluate prediction accuracy
-- Best Result: ~2.09 MAE using XGBoost after hyperparameter tuning
-- Cross-Validated MAE Mean: ~2.23 (good model generalizability)
+**Key Performance Metrics** -> MAE (Mean Absolute Error) – Used to evaluate prediction accuracy and cross-Validated MAE Mean: ~2.23 (good model generalizability)
 ______________________________________________________________________________________________________________________________________________________________________________________________________________
 # Executive Summary
 Analyze and Built a tuned ML model to accurately predict energy output from real-world environmental data.
@@ -148,6 +143,11 @@ A blend of analytical thinking and tech tools
 | Train MAE 	               |  0.94          |
 | Test MAE	                 |  2.09          |
 | Cross-Val MAE (Mean ± Std) |	 2.23 ± 0.035 |
+
+ - Improved model reliability by identifying key input features and achieving a Mean Absolute Error (MAE) of ~2.09 using robust evaluation metrics.
+- Supported plant operations by enabling smarter decisions on fuel usage, equipment maintenance, and energy demand planning based on predictive insights.
+
+
 ______________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ## LICENSE
