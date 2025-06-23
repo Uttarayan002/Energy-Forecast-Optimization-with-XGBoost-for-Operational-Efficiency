@@ -69,6 +69,16 @@ ________________________________________________________________________________
 - **Insights:** Ambient Temperature (AT) usually has a strong negative correlation with Power Output.
 ![Screenshot (344)](https://github.com/user-attachments/assets/0f41e89e-1945-472d-8d4e-dc5d50e0d07a)
 
+**Pairplots for all Environmental parameters**
+
+- **what are we looking:** Exploratory data analysis (EDA) and visualizing relationships within a dataset, Understanding Pairwise Relationships, Identifying Correlations and Patterns and Comparing Groups within
+  Data.
+- **Insights:** Relationships Between Variables: There seems to be negative correlation between AT (Ambient Temperature) and PE (Power Output), which makes sense as higher temperatures might reduce efficiency in energy production. V (Exhaust Vacuum) shows a relatively strong positive correlation with PE. AP (Ambient Pressure) and RH (Relative Humidity) appear to have weaker relationships with PE.
+
+![PAIR_plot](https://github.com/user-attachments/assets/e750e98c-3ce8-4d95-a80b-2809b509027a)
+
+
+
 **Temperature and Power Output Trend**
 - **What we are looking:** As temperature increases, power output tends to decrease — likely due to thermodynamic efficiency loss.
 - **Insights:** Higher temperatures (AT) negatively affect the power output (PE). This is due to reduced efficiency in thermal energy conversion as the ambient temperature increases.
