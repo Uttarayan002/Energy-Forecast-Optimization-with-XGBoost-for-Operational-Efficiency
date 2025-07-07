@@ -1,6 +1,7 @@
 # 	Power Forecast Optimization for Energy Operations (Feb 2025 - Apr 2025)
+*Domain: Energy & Sustainability*
 A business-relevant, data-driven project to optimize power plant efficiency using environmental indicators and predictive modeling.
-____________________________________________________________________________________________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________________________________________________________________________________
 
 # Project Overview
 
